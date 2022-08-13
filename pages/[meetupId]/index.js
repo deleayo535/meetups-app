@@ -4,7 +4,7 @@ function MeetupDetails() {
   return (
     <MeetupDetail
       image="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/1280px-Stadtbild_M%C3%BCnchen.jpg"
-      title="First Meetup"
+      title="New Meetup"
       address="Some Street 5, Some City"
       description="This is a first meetup"
     />
@@ -30,7 +30,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-  // fetch data for a single meetup
+  // fetch data for a single meetup multiple
 
   const meetupId = context.params.meetupId;
 
